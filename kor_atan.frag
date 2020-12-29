@@ -46,7 +46,7 @@ void main(){
 
     vec3 color = hsb2rgb(vec3(angle, dist, 1.0));
     // hue = angle , saturation = dist , brightness = 1.0
-
+    // color = vec3(abs(sin(angle)));
     gl_FragColor = vec4(color,1.0);   
 
 }
